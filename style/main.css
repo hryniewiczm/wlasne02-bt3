@@ -1,0 +1,94 @@
+html, body {
+    padding: 0px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 75px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;    
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: darkgrey;
+      padding: 25px;
+    }
+    
+  .carousel-inner > .item > img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      max-height: 600px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+.container {
+    width: 100%;
+}
+
+a {
+    color: black;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    border-radius: 5px;
+    color: darkslategrey;
+}
+
+.navbar-btn {
+    border-radius: 5px;
+}
+div.uczestniczki img {
+    border-radius: 50%;
+}
+
+.well {
+    border-radius: 10px;
+}
+
+.uczestniczki p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
